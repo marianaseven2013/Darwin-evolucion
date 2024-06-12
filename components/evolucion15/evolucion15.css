@@ -1,0 +1,139 @@
+.evolicion15 span{
+    margin: 0.3em;
+  
+}
+
+.evolicion15 h2{
+    margin-bottom: 0.5em;
+}
+
+.title {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.title p {
+    color: #0d71fc;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+}
+
+.timeline {
+    margin: 5em auto;
+    max-width: 34.15em;
+}
+
+.checkpoint {
+    max-width: 34rem;
+    padding: 2rem 0;
+    position: relative;
+}
+
+.checkpointp-div {
+    border: 2px solid #888;
+    border-radius: 1em;
+    padding: 1.5rem;
+    transition: 1s;
+}
+
+.checkpoint p {
+    line-height: 27px;
+}
+
+.checkpoint::before {
+    content: '';
+    background: #888;
+    width: 3em;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 1s;
+}
+
+.checkpoint div::before {
+    content: '';
+    background: #242222;
+    box-shadow: 0 0 0.5em #0d71fc;
+    width: 0.8em;
+    height: 0.8em;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
+.checkpoint:nth-child(odd) {
+    border-left: 3px solid #888;
+    padding-left: 3em;
+    transform: translateX(17rem);
+}
+
+.checkpoint:nth-child(even) {
+    border-right: 3px solid #888;
+    padding-right: 3em;
+    transform: translateX(-17rem);
+}
+
+.checkpoint:nth-child(odd)::before {
+    left: 0;
+}
+
+.checkpoint:nth-child(even)::before {
+    right: 0;
+}
+
+.checkpoint:nth-child(odd) div::before {
+    left: -0.5em;
+}
+
+.checkpoint:nth-child(even) div::before {
+    right: -0.5em;
+}
+
+.informacion img {
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    transition: opacity 1s ease-in-out, visibility 1s ease-in-out, width 1s ease-in-out, height 1s ease-in-out;
+}
+
+.checkpointp-div:hover .informacion img {
+    opacity: 1;
+    visibility: visible;
+    width: 50%;
+    height: auto;
+}
+.checkpointp-div:hover {
+    background-color: #ffffe0; /* Amarillo claro */
+}
+
+
+@media screen and (max-width: 1150px) {
+    .timeline {
+        width: 80vw;
+    }
+
+    .timeline .checkpoint {
+        width: 100%;
+        transform: none;
+        padding-left: 0;
+        padding-right: 0;
+        border: none;
+    }
+
+    .timeline .checkpoint::before {
+        width: 6px;
+        height: 5em;
+        top: -2em;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .timeline .checkpoint div::before {
+        top: -0.5em;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
