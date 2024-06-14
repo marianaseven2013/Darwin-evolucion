@@ -40,7 +40,7 @@ DOM_evolucion2.innerHTML = `
         <p>Las aves, descendientes de los dinosaurios, sobreviven y se diversifican.</p>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTejNsJV9tcOsqsB6-vPV9rvjmQm9k8tzhqZw&s" alt="Tyrannosaurus Rex">
     </div>
-<!-- Añadir más eventos aquí -->
+
 </div>
 
 `
