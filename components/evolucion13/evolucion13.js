@@ -1,6 +1,6 @@
 let DOM_evolucion13 = document.querySelector("#evolucion13");
 DOM_evolucion13.innerHTML = `evolucion13
-<h2 style="text-align:center">Línea de Tiempo de Consolas de Videojuegos</h2>
+<h2>Línea de Tiempo de Consolas de Videojuegos</h2>
 
 <div class="timeline">
     <div class="container left">
@@ -67,20 +67,17 @@ DOM_evolucion13.innerHTML = `evolucion13
         </div>
     </div>
     <div class="container right">
-        <div class="content
-    </div>
-    <div class="container right">
         <div class="content">
             <div class="date">2017</div>
             <p>Nintendo Switch: Innovadora por su capacidad híbrida de consola doméstica y portátil, con juegos exitosos como "The Legend of Zelda: Breath of the Wild".</p>
-               <img src="https://areajugones.sport.es/wp-content/uploads/2017/10/areajugones-nintendo-switch.jpg" alt="Nintendo switch " style="width:80%">
+            <img src="https://areajugones.sport.es/wp-content/uploads/2017/10/areajugones-nintendo-switch.jpg" alt="Nintendo Switch" style="width:80%">
         </div>
     </div>
     <div class="container left">
         <div class="content">
             <div class="date">2020</div>
             <p>Sony PlayStation 5 (PS5) y Xbox Series X/S: Ofrecen gráficos avanzados y tiempos de carga rápidos, prometiendo una experiencia de juego inmersiva.</p>
-               <img src="https://images-na.ssl-images-amazon.com/images/I/51SQQbUtUdL._SL1448_.jpg" alt="Sony PlayStation 5 " style="width:80%">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51SQQbUtUdL._SL1448_.jpg" alt="Sony PlayStation 5" style="width:80%">
         </div>
     </div>
 </div>
