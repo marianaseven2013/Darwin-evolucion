@@ -7,6 +7,7 @@
     <title>Darwin-evoluci-n</title>
 
     <!-- Archivos de diseño -->
+    <link rel="stylesheet" href="components/nav/nav.css">
     <link rel="stylesheet" href="components/evolucion1/evolucion1.css">
     <link rel="stylesheet" href="components/evolucion2/evolucion2.css">
     <link rel="stylesheet" href="components/evolucion3/evolucion3.css">
@@ -41,7 +42,12 @@
 
     <!-- contenido -->
     <main id="root">
-        <nav id="nav"></nav>
+        <div class="menu">
+            <div class="logo">Darwin evolución</div>
+            <nav id="nav">
+                <div id="nav_btn" class="nav_btn evolucion1">evolucion1</div>
+            </nav>
+        </div>
         <section>
             <article id="evolucion1" class="desactivar article_evolucion evolucion1">Evolución 1</article>
             <article id="evolucion2" class="desactivar article_evolucion evolucion2">Evolución 2</article>
