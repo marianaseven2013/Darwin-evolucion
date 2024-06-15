@@ -5,7 +5,7 @@
     justify-content: center;
     margin: auto;
 }
-.large-box {
+.large-boxgl {
     width: 50rem;
     border: 3px solid #007BFF;
     display: grid;
@@ -38,10 +38,10 @@
     grid-column-end: 3;
     text-align: center;
 }
-.large-box .evotitle {
+.large-boxgl {
     background-color: aliceblue;
 }
-.large-box p {
+.large-boxgl p {
     grid-column-start: 1;
     grid-column-end: 2;
 }
@@ -50,7 +50,7 @@
     justify-content: center;
     gap: 10px;    
 }
-.circle {
+.circlegllm {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -63,24 +63,24 @@
     font-weight: bold;
 
 }
-.circle:hover {
+.circlegllm:hover {
     background-color: #0056b3;
     transform: scale(1.1);    
 }
-.EvoInfo{
+.EvoInfo_gl{
     padding: 2rem;
 }
-.EvoTitle {
+.EvoTitlegl {
     font-family: "Spicy Rice", serif;
-    font-weight: 1400;
+    font-weight: 900;
     font-size: 2.4rem;
     color: #0056b3;
 
 }
-.EvoInfo h3 {
+.EvoInfo_gl h3 {
     color: #0056b3;
 }
-.btnYouTube {
+.btnYouTubegl {
     margin-top: 0.3rem;
     border-radius: 0.5rem;
     width: 10rem;
@@ -89,45 +89,45 @@
     border: 2px solid black;
     border-radius: 0.5rem;
 }
-.btnYouTube img {
+.btnYouTubegl img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 0.5rem;
 }
-.bigImg {
+.bigImggl {
     width: 100%;
-    height: 96.8%;
+    height: 96.4%;
     border-top-right-radius: 0.8rem;
     border-bottom-right-radius: 0.8rem;
 }
-.bigImg img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-top-right-radius: 0.8rem;
-    border-bottom-right-radius: 0.8rem;
-}
-.bigImg2 {
-    width: 100%;
-    height: 100%;
-    border-top-right-radius: 0.8rem;
-    border-bottom-right-radius: 0.8rem;
-}
-.bigImg2 img {
+.bigImggl img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-top-right-radius: 0.8rem;
     border-bottom-right-radius: 0.8rem;
 }
-.bigImg3 {
+.bigImg2gl {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+}
+.bigImg2gl img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+}
+.bigImg3gl {
     width: 100%;
     height: 98%;
     border-top-right-radius: 0.8rem;
     border-bottom-right-radius: 0.8rem;
 }
-.bigImg3 img {
+.bigImg3gl img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -142,7 +142,7 @@
         display: grid;
         grid-template-rows: 6rem 1fr;
     }
-    .circle:hover {
+    .circlegllm:hover {
         background-color: #0056b3;
         transform: scale(1.1);    
     }
@@ -153,7 +153,7 @@
         grid-template-columns: repeat(3, 1fr);
     }
     
-    .large-box {
+    .large-boxgl {
         width: 30rem;
         border: none;
         border-radius: 0;
@@ -176,31 +176,31 @@
        border-radius: 1rem;
     }
     
-    .circle {
+    .circlegllm {
         width: 40px;
         height: 40px;
     }
     
-    .large-box {
+    .large-boxgl {
         display: grid;
         grid-template-columns: 1fr;
         width: 100%;
     }
 
-    .EvoInfo {
+    .EvoInfo_gl {
         padding: 1rem;
     }
     
-    .EvoTitle {
+    .EvoTitlegl {
         font-size: 1.8rem;
     }
     
-    .btnYouTube {
+    .btnYouTubegl {
         width: 40%;
         height: 3rem;
     }
     
-    .bigImg img, .bigImg2 img, .bigImg3 img {
+    .bigImggl img, .bigImg2gl img, .bigImg3gl img {
         padding: 1%;
         width: 94%;
         height: 94%;
