@@ -1,7 +1,8 @@
+
 let DOM_evolucion6 = document.querySelector("#evolucion6");
 DOM_evolucion6.innerHTML = `
 <body>
-    <header class="header">
+    <header class="Pablo1">
         <h1>Evolución de los Televisores</h1>
     </header>
     <div class="timeline">
@@ -134,10 +135,11 @@ DOM_evolucion6.innerHTML = `
             </div>
            
         </div>
-        <footer class="footer">
+        <footer class="girón1">
             <h1>©pagiron@scl.edu.gt</h1>
            </footer>
     </div>
     <script src="scripts.js"></script>
 </body>
 `;
+

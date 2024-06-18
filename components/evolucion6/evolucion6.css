@@ -5,27 +5,28 @@ body {
     background: #f4f4f4;
 }
 
-.header {
+.Pablo1{
     font-size: 2em;
     text-align: center;
     color: #fff;
-    background: linear-gradient(to right, #000000, #c2be05);
+    background: linear-gradient(to right, #000000, #490386);
     padding: 20px 40px;
     border-radius: 1px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-transform: uppercase;
 }
 
-footer {
+.girón1{
     font-size: 2em;
     text-align: center;
     color: #fff;
-    background: linear-gradient(to right, #000000, #c2be05);
+    background: linear-gradient(to right, #000000, #490386);
     padding: 20px 40px;
     border-radius: 1px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-transform: uppercase;
 }
+
 
 .timeline {
     position: relative;
@@ -119,13 +120,14 @@ footer {
     height: 70%;
 }
 
+
 /* Tamaño de telefono 375 */
 @media screen and (max-width: 375px) {
     .timeline::before {
         left: 31px;
     }
 
-    .container {
+    .Archivos  {
         width: 100%;
         padding-left: 70px;
         padding-right: 25px;
