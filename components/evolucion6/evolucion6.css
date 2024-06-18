@@ -16,7 +16,7 @@ body {
     text-transform: uppercase;
 }
 
-footer{
+footer {
     font-size: 2em;
     text-align: center;
     color: #fff;
@@ -26,7 +26,6 @@ footer{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-transform: uppercase;
 }
-
 
 .timeline {
     position: relative;
@@ -120,7 +119,7 @@ footer{
     height: 70%;
 }
 
-/* Media Query for phones */
+/* Tamaño de telefono 375 */
 @media screen and (max-width: 375px) {
     .timeline::before {
         left: 31px;
@@ -154,5 +153,29 @@ footer{
     .foto1 img, .foto2 img, .foto3 img, .foto4 img, .foto5 img, .foto6 img, .foto7 img, .foto8 img, .foto9 img, .foto10 img {
         width: 100%;
         height: auto;
+    }
+}
+
+/* Tamaño de tableta 1024 */
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 100%;
+        padding: 20%;
+    }
+
+    .left, .right {
+        left: 0;
+    }
+
+    .left::before, .right::before {
+        display: none;
+    }
+
+    .left::after, .right::after {
+        left: calc(50% - 12.5%);
+    }
+
+    .timeline::before {
+        display: none;
     }
 }
