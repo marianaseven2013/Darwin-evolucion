@@ -1,5 +1,5 @@
 .separador {
-    width: 1190px;
+    width: 1120px;
     height: 725px;
     border-radius: 16px;
     background-image: url("https://c.wallhere.com/photos/dd/17/1920x1080_px_artwork_music_Notes-1820865.jpg!d");
@@ -26,7 +26,7 @@
     align-items: center;
 }
 
-.header {
+.header845 {
     grid-column: span 3;
     font-size: 2em;
     font-weight: bold;
@@ -62,12 +62,12 @@
     display: none;
 }
 
-.titulo {
+.titulo55 {
     width: 18rem;
     border-radius: 10px;
 }
     
-.titulo:hover {
+.titulo55:hover {
     transition: 2s;
     width: 20rem;
     background-color: rgb(207, 207, 200);
@@ -79,7 +79,7 @@
 }
 
 .separador2 {
-    width: 1190px;
+    width: 1120px;
     height: 725px;
     border-radius: 16px;
     background-image: url("https://c.wallhere.com/photos/44/5b/music_vinyl-2291604.jpg!d");
@@ -89,11 +89,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 5rem 0px;
     color: white;
     font-size: 2rem;
 }
 
-.cuadro {
+.cuadro123 {
     width: 100%;
     height: 500px;
     display: grid;
@@ -107,7 +108,7 @@
 }
 
 .rectangulos1 img {
-    width: 75%;
+    width: 80%;
     grid-column: 1/2;
     grid-row: 1/2;
     padding: 2rem 3rem;
@@ -150,7 +151,7 @@
 }
 
 .separador3 {
-    width: 1190px;
+    width: 1120px;
     height: 725px;
     border-radius: 16px;
     background-image: url("https://c.wallhere.com/photos/bd/17/2560x1508_px_monochrome_music_vinyl-1419839.jpg!d");
@@ -161,6 +162,7 @@
     align-items: center;
     justify-content: center;
     color: white;
+    padding: 5rem 0px;
     font-size: 2rem;
 }
 
@@ -249,7 +251,7 @@
 }
 
 .separador4 {
-    width: 1190px;
+    width: 1120px;
     height: 725px;
     border-radius: 16px;
     background-image: url("https://c.wallhere.com/photos/e5/c2/abandoned_old_television_sets_radio_table_plates_dust_vintage-66596.jpg!d");
@@ -260,6 +262,7 @@
     align-items: center;
     justify-content: center;
     color: white;
+    padding: 5rem 0px;
     font-size: 2rem;
 }
 
@@ -346,7 +349,7 @@
 }
 
 .separador5 {
-    width: 1188px;
+    width: 1120px;
     height: 725px;
     border-radius: 16px;
     background-image: url("https://c.wallhere.com/photos/d5/9d/sound_mixing_consoles_techno_consoles_nord_synthesizer-221504.jpg!d");
@@ -357,6 +360,7 @@
     align-items: center;
     justify-content: center;
     color: white;
+    padding: 5.5rem 0px;
     font-size: 2rem;
 }
 
@@ -454,7 +458,7 @@
 
 
 .separador6 {
-    width: 1188px;
+    width: 1120px;
     height: 725px;
     border-radius: 16px;
     background-image: url("https://c.wallhere.com/photos/7d/59/1920x1080_px_abstract_music-783622.jpg!d");
@@ -465,6 +469,7 @@
     align-items: center;
     justify-content: center;
     color: white;
+    padding: 5rem 0px;
     font-size: 2rem;
 }
 
@@ -554,7 +559,7 @@
 }
 
 .separador7 {
-    width: 1188px;
+    width: 1120px;
     height: 725px;
     border-radius: 16px;
     background-image: url("https://c.wallhere.com/photos/1a/9f/1920x1200_px_Electric_entertainment_guitars_instuments_music_Musical_Strings-1721527.jpg!d");
@@ -565,6 +570,7 @@
     align-items: center;
     justify-content: center;
     color: white;
+    padding: 3rem 0px;
     font-size: 2rem;
 }
 

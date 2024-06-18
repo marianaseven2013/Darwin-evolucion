@@ -2,24 +2,24 @@ let DOM_evolucion11 = document.querySelector("#evolucion11");
 DOM_evolucion11.innerHTML = `
     <section class="separador">
         <div class="container">
-            <div class="header">🎶 Evolución de la Música 🎶</div>
+            <div class="header845">🎶 Evolución de la Música 🎶</div>
             <div class="antiguedad">
-                <h1 class="titulo">🪈Antigüedad🪈</h1>
+                <h1 class="titulo55">🪈Antigüedad🪈</h1>
             </div>
             <div class="renacimiento">
-                <h1 class="titulo">🪕Renacimiento🪕</h1>
+                <h1 class="titulo55">🪕Renacimiento🪕</h1>
             </div>
             <div class="clasicismo">
-                <h1 class="titulo">🎻Clasicismo🎻</h1>
+                <h1 class="titulo55">🎻Clasicismo🎻</h1>
             </div>
             <div class="romanticismo">
-                <h1 class="titulo">🎹Romanticismo🎹</h1>
+                <h1 class="titulo55">🎹Romanticismo🎹</h1>
             </div>
             <div class="barroco">
-                <h1 class="titulo">🎺Barroco🎺</h1>
+                <h1 class="titulo55">🎺Barroco🎺</h1>
             </div>
             <div class="sigloXXI">
-                <h1 class="titulo">🎸Siglo XX y XXI🎸</h1>
+                <h1 class="titulo55">🎸Siglo XX y XXI🎸</h1>
             </div>
         </div>
         <div class="antiguedad-boton">
@@ -27,7 +27,7 @@ DOM_evolucion11.innerHTML = `
                 <div class="titulo1">
                     <h1>🪈Antigüedad y Edad Media🪈</h1>
                 </div>
-                <div class="cuadro">
+                <div class="cuadro123">
                     <div class="rectangulos1">
                         <img src="https://artehistoria.online/wp-content/uploads/2023/08/musica-andaluza-del-siglo-VIII.webp" alt="">
                         <img src="https://i0.wp.com/opinionfrontal.com/wp-content/uploads/2021/01/musica-medieval-30-1-21.jpg?fit=1100%2C650&ssl=1" alt="">
