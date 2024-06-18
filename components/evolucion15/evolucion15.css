@@ -1,121 +1,125 @@
-.evolicion15 span{
-    margin: 0.3em;
-  
+.todo-keneth {
+    margin: 1em;
 }
 
-.evolicion15 h2{
-    margin-bottom: 0.5em;
+.evolucion15-keneth span {
+    margin: 0.2em;
 }
 
-.title {
+.evolucion15-keneth h2 {
+    margin-bottom: 0.3em;
+}
+
+.title-keneth {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
-.title p {
+.title-keneth p {
     color: #0d71fc;
-    font-size: 1.3rem;
-    letter-spacing: 2px;
+    font-size: 1rem;
+    letter-spacing: 1px;
 }
 
-.timeline {
-    margin: 5em auto;
-    max-width: 34.15em;
+.timeline-keneth {
+    margin: 3em auto;
+    max-width: 30em;
 }
 
-.checkpoint {
-    max-width: 34rem;
-    padding: 2rem 0;
+.checkpoint-keneth {
+    max-width: 30rem;
+    padding: 1rem 0;
     position: relative;
 }
 
-.checkpointp-div {
-    border: 2px solid #888;
-    border-radius: 1em;
-    padding: 1.5rem;
+.checkpointp-div-keneth {
+    border: 1px solid #888;
+    border-radius: 0.5em;
+    padding: 1rem;
     transition: 1s;
 }
 
-.checkpoint p {
-    line-height: 27px;
+.checkpoint-keneth p {
+    line-height: 20px;
 }
 
-.checkpoint::before {
+.checkpoint-keneth::before {
     content: '';
     background: #888;
-    width: 3em;
-    height: 3px;
+    width: 2em;
+    height: 2px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     transition: 1s;
 }
 
-.checkpoint div::before {
+.checkpoint-keneth div::before {
     content: '';
     background: #242222;
-    box-shadow: 0 0 0.5em #0d71fc;
-    width: 0.8em;
-    height: 0.8em;
+    box-shadow: 0 0 0.3em #0d71fc;
+    width: 0.6em;
+    height: 0.6em;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     border-radius: 50%;
 }
 
-.checkpoint:nth-child(odd) {
-    border-left: 3px solid #888;
-    padding-left: 3em;
-    transform: translateX(17rem);
+.checkpoint-keneth:nth-child(odd) {
+    border-left: 2px solid #888;
+    padding-left: 2em;
+    transform: translateX(12rem);
 }
 
-.checkpoint:nth-child(even) {
-    border-right: 3px solid #888;
-    padding-right: 3em;
-    transform: translateX(-17rem);
+.checkpoint-keneth:nth-child(even) {
+    border-right: 2px solid #888;
+    padding-right: 2em;
+    transform: translateX(-12rem);
 }
 
-.checkpoint:nth-child(odd)::before {
+.checkpoint-keneth:nth-child(odd)::before {
     left: 0;
 }
 
-.checkpoint:nth-child(even)::before {
+.checkpoint-keneth:nth-child(even)::before {
     right: 0;
 }
 
-.checkpoint:nth-child(odd) div::before {
-    left: -0.5em;
+.checkpoint-keneth:nth-child(odd) div::before {
+    left: -0.3em;
 }
 
-.checkpoint:nth-child(even) div::before {
-    right: -0.5em;
+.checkpoint-keneth:nth-child(even) div::before {
+    right: -0.3em;
 }
 
-.informacion img {
+.informacion-keneth img {
     opacity: 0;
     visibility: hidden;
     width: 0;
     height: 0;
-    transition: opacity 1s ease-in-out, visibility 1s ease-in-out, width 1s ease-in-out, height 1s ease-in-out;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out, width 0.5s ease-in-out, height 0.5s ease-in-out;
 }
 
-.checkpointp-div:hover .informacion img {
+.checkpointp-div-keneth:hover .informacion-keneth img {
     opacity: 1;
     visibility: visible;
-    width: 50%;
+    width: 40%;
     height: auto;
 }
-.checkpointp-div:hover {
-    background-color: #ffffe0; /* Amarillo claro */
+
+.checkpointp-div-keneth:hover {
+    background-color: #ffffe0;
 }
 
-
 @media screen and (max-width: 1150px) {
-    .timeline {
-        width: 80vw;
+    .timeline-keneth {
+        width: 90vw;
+        display: grid;
     }
 
-    .timeline .checkpoint {
+    .timeline-keneth .checkpoint-keneth {
         width: 100%;
         transform: none;
         padding-left: 0;
@@ -123,16 +127,16 @@
         border: none;
     }
 
-    .timeline .checkpoint::before {
-        width: 6px;
-        height: 5em;
+    .timeline-keneth .checkpoint-keneth::before {
+        width: 4px;
+        height: 3em;
         top: -2em;
         left: 50%;
         transform: translateX(-50%);
     }
 
-    .timeline .checkpoint div::before {
-        top: -0.5em;
+    .timeline-keneth .checkpoint-keneth div::before {
+        top: -2em;
         left: 50%;
         transform: translateX(-50%);
     }
