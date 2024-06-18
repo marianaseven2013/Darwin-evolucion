@@ -170,7 +170,7 @@
 }
 
 
-<!--tableta-->
+
 
 @media (min-width: 376px) and (max-width: 768px) {
     .estru, .general {
@@ -186,5 +186,21 @@
         width: 80%;
         max-width: 80%;
         padding: 0.5rem;
+    }
+}
+
+@media (min-width: 769px) {
+    .estru, .general {
+        width: 50rem;
+    }
+    
+    .h1 {
+        font-size: 3rem;
+    }
+
+    .info1, .info2, .info3, .info4, .info5, .info6, .info7, .final {
+        width: 40rem;
+        max-width: 40rem;
+        padding: 1rem;
     }
 }
