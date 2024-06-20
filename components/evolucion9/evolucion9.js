@@ -24,7 +24,7 @@ DOM_evolucion9.innerHTML = `
  
      <p>1913: Henry Ford revoluciona la industria automotriz con la línea de montaje en la planta de Highland Park, produciendo el Ford Model T de manera eficiente y asequible.
       1920s: Se popularizan los vehículos cerrados y con sistemas eléctricos, incluyendo encendido eléctrico y faros.</p>
-      <img src="https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/10285562/image/95350f01dc0178bc1fa9de7f795d38c2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJB6ZCNNAN7BE7WDQ%2F20240609%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240609T221514Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=20b1ce72d336740ef89ad8df40c5ae5f7bf5315e342563281219f23a94a67a98" alt="" class="foto2">
+      <img src="https://www.biografiasyvidas.com/historia/fotos/cadena_montaje_ford.jpg" alt="" class="foto2">
   </div>
 
 
