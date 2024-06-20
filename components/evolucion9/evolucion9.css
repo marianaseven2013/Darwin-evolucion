@@ -150,7 +150,6 @@
     width:100%;
 }
 
-<!--celular-->
 
 @media (max-width: 375px) {
     .estru, .general {
@@ -168,8 +167,6 @@
         padding: 0.2rem;
     }
 }
-
-
 
 
 @media (min-width: 376px) and (max-width: 768px) {
