@@ -77,7 +77,6 @@ body {
     color: #dd1919;
 }
 
-
 @media (max-width: 768px) {
     .container {
         width: 100%;
@@ -110,5 +109,23 @@ body {
 
     .sub {
         font-size: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .title{
+        width: 120rem;
+    }
+    .timeline {
+        padding: 60px 0; /* Ajuste de padding para tabletas */
+    }
+
+    .container {
+        width: 60%; /* Ancho más ajustado para tabletas */
+        padding: 60px 40px; /* Ajuste de padding para tabletas */
+    }
+
+    .content {
+        padding: 25px 30px; /* Ajuste de padding para tabletas */
     }
 }
