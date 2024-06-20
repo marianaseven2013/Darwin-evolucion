@@ -70,7 +70,7 @@ header {
     z-index: 1;
 }
 
-.timeline-item:nth-child(even::after) {
+.timeline-item:nth-child(even)::after {
     left: -16px;
 }
 
@@ -107,5 +107,39 @@ header {
 
     .timeline-item:nth-child(even) {
         left: 0%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .timeline {
+        max-width: 100%;
+    }
+    .timeline-item {
+        width: 100%;
+        left: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .timeline-item::after {
+        left: 50%;
+        margin-left: -12px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+    .timeline {
+        max-width: 100%;
+    }
+    .timeline-item {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .timeline {
+        max-width: 1200px;
+    }
+    .timeline-item {
+        width: 50%;
     }
 }
