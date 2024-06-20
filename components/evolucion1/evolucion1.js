@@ -1,7 +1,7 @@
 let DOM_evolucion1 = document.querySelector("#evolucion1");
 DOM_evolucion1.innerHTML = `
 <div class="pantalla_lglm">
-    <div class="timeline">
+    <div class="timeline_lglm">
         <div class="circlegllm" onmouseover="showInfo('info1')">1</div>
         <div class="circlegllm" onmouseover="showInfo('info2')">2</div>
         <div class="circlegllm" onmouseover="showInfo('info3')">3</div>
