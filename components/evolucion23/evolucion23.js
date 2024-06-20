@@ -2,7 +2,7 @@ let DOM_evolucion23 = document.querySelector("#evolucion23");
 DOM_evolucion23.innerHTML = `
 
 
-<body>
+
     <div class="timeline">
         <div class="event">
             <h1>1958: Tennis for Two</h1>
@@ -54,7 +54,7 @@ DOM_evolucion23.innerHTML = `
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpvtoDmcUHILnfJkwisEgcklEN6_6pRxzNHw&s" alt="PlayStation 5 y Xbox Series X">
         </div>
     </div>
-</body>
+
 
 `;
 
