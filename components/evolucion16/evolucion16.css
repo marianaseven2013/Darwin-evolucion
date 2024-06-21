@@ -1,97 +1,3 @@
-@media screen and (max-width: 375px){
-        .hola {
-
-            background-image: url(https://i.pinimg.com/564x/82/58/c3/8258c367ec6437598c115cbf9d0dbf21.jpg); 
-            border-radius: 20px;
-            display: grid;
-            grid-template-columns: 50% 50%;
-            grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
-        }
-
-        .ver {
-            /* grid-column: 1/3; */
-            grid-column: 1/3;
-            grid-row: 1/2;
-            width: 25rem;
-
-            font-size: 18px;
-        
-            /* background-color: transparent; */
-            border-radius: 20px;
-            border: 2cqb solid black;
-        
-            color: white;
-            display: grid;
-            /* grid-template-columns: 1fr 1fr ;
-            grid-row: 10px; */
-        }
-
-        .veri {
-            grid-column: 2/3;
-            grid-row: 2/3;
-        
-         background-color: transparent;
-            border-radius: 20px;
-            border: 2cqb solid black;
-            width: 24rem;
-            font-size: 18px;
-
-            color: white;
-        
-            display: grid;
-            grid-template-columns: 1fr 1fr ;
-            grid-row: 10px;
-        
-        }
-
-        .vero {
-            grid-column: 1/2;
-            grid-row: 3/4;
-        
-            background-color: transparent;
-            border-radius: 20px;
-            border: 2cqb solid black;
-            color: white;
-            font-size: 18px;
-
-            display: grid;
-            grid-template-columns: 1fr 1fr ;
-            grid-row: 10px;
-        }
-
-        .veru {
-            grid-column: 2/3;
-            grid-row: 4/5;
-        
-            display: grid;
-            grid-template-columns: 1fr 1fr ;
-            grid-row: 10px;
-            color: white;
-            font-size: 18px;
-        
-            background-color: transparent;
-            border-radius: 20px;
-            border: 2cqb solid black;
-        }
-
-        .vera {
-            grid-column: 1/2;
-            grid-row: 5/6;
-        
-            display: grid;
-            grid-template-columns: 1fr 1fr ;
-            grid-row: 10px;
-            color: white;
-            
-            background-color: transparent;
-            border-radius: 20px;
-            border: 2cqb solid black;
-        
-            font-size: 18px;
-
-         }
-        }
-
 .bootonn {
     border: 2px solid black;
     background-color: aqua;
@@ -148,14 +54,14 @@ button:hover::before {
     border-radius: 20px;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 
 }
 
-.arn {
+/* .arn {
     color: white;
     font-size: 2rem;
-}
+} */
 
 /* CLASE VER */
 .ver {
@@ -165,7 +71,7 @@ button:hover::before {
     background-color: transparent;
     border-radius: 20px;
     border: 2cqb solid black;
-
+    
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr ;
@@ -212,15 +118,14 @@ button:hover::before {
 }
 
 /*DODOS  */
-.dodos {
+/* .dodos {
     display: grid;
     grid-template-columns: 1fr 1fr ;
     grid-row: 10px;
-}
+} */
 
 .dodos p {
-    grid-column: 2/3;
-    grid-row: 1/2;
+    
     text-align: center;
     text-align: right;
     padding: 2rem;
@@ -229,10 +134,20 @@ button:hover::before {
     font-size: 2rem;
 }
 
+.arn {
+    text-align: center;
+    text-align: left;
+    padding: 2rem;
+    color: white;
+
+    font-size: 2rem;
+
+}
+
 /* CLASE VERI */
 .veri {
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 2/3; 
 
  background-color: transparent;
     border-radius: 20px;
@@ -266,10 +181,18 @@ button:hover::before {
 
 }
 
+.veri img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
 /* CLASE VERO */
 .vero {
-    grid-column: 1/2;
-    grid-row: 3/4;
+     grid-column: 1/2;
+    grid-row: 3/4; 
 
     background-color: transparent;
     border-radius: 20px;
@@ -303,10 +226,18 @@ button:hover::before {
 
 }
 
+.vero img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
 /* CLASE VERU */
 .veru {
-    grid-column: 2/3;
-    grid-row: 4/5;
+   grid-column: 2/3;
+    grid-row: 4/5; 
 
     display: grid;
     grid-template-columns: 1fr 1fr ;
@@ -339,16 +270,24 @@ button:hover::before {
 
 }
 
+.veru img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
 /* CLASE VERA */
 .vera {
     grid-column: 1/2;
     grid-row: 5/6;
-
+ 
     display: grid;
     grid-template-columns: 1fr 1fr ;
     grid-row: 10px;
     color: white;
-    
+
     background-color: transparent;
     border-radius: 20px;
     border: 2cqb solid black;
@@ -372,5 +311,60 @@ button:hover::before {
     border-radius: 3pc;
 
     box-shadow: 6px 6px 6px 6px black;
+
+}
+
+.vera img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+/*ESTILO DE TABLET */
+@media screen and (max-width: 1024px) {
+    .hola {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        height: 126rem;
+    }
+
+    .ver, .veri, .vero, .veru, .vera {
+        grid-column: 1 / -1;
+        width: 90%;
+        font-size: 1.5rem;
+        margin: 0 auto;
+    }
+
+    .arn {
+        visibility: hidden;
+        text-align: center;
+        text-align: left;
+        padding: 2rem;
+        color: white;
+        font-size: 2rem;
+    }
+   
+}
+
+/*ESTILO DE TELEFONO*/
+@media screen and (max-width: 375px) {
+    .hola {
+        background-image: url(https://i.pinimg.com/564x/82/58/c3/8258c367ec6437598c115cbf9d0dbf21.jpg);
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        height: 102rem;
+
+    }
+
+
+    .ver, .veri, .vero, .veru, .vera {
+        width: 25rem;
+        font-size: 18px;
+        margin: 0 auto;
+    }
+
+    
 
 }
