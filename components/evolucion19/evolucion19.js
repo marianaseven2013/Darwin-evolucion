@@ -21,34 +21,34 @@ DOM_evolucion19.innerHTML = `
         </div>
     </section>
     <div class="menu-zarsu">
-        <div class="boton1-sarazua">
+        <div class="ev19_boton boton1-sarazua">
             <a class="evo">1959</a>
         </div>
-        <div class="boton2-sarazua">
+        <div class="ev19_boton boton2-sarazua">
             <a class="evo">1981</a>
         </div>
-        <div class="boton3-sarazua">
+        <div class="ev19_boton boton3-sarazua">
             <a class="evo">1985</a>
         </div>
-        <div class="boton4-sarazua">
+        <div class="ev19_boton boton4-sarazua">
             <a class="evo">1991</a>
         </div>
-        <div class="boton5-sarazua">
+        <div class="ev19_boton boton5-sarazua">
             <a class="evo">2004</a>
         </div>
-        <div class="btn-reg-sarazua">
+        <div class="ev19_boton btn-reg-sarazua">
             <a class="regresar-sarazua">Regresa al Inicio</a>
         </div>
     </div>
 `;
 
-let informacion1 = document.querySelector(".boton1-sarazua");
+let informacion1_1 = document.querySelector(".boton1-sarazua");
 
-informacion1.addEventListener("click",()=>{
-    let bloque1 = document.querySelector(".info-sarazua");
+informacion1_1.addEventListener("click",()=>{
+    let bloque1_1 = document.querySelector(".info-sarazua");
 
-    bloque1.classList.add("activar")
-    bloque1.innerHTML= `
+    bloque1_1.classList.add("activar")
+    bloque1_1.innerHTML= `
             <div class="info-sarazua">
                 <img src="https://www.shutterstock.com/shutterstock/photos/2264308649/display_1500/stock-vector-ai-robot-look-at-logo-ai-hanging-over-phone-in-hand-artificial-intelligence-technology-conceptual-2264308649.jpg" alt="">
             </div>
@@ -56,13 +56,13 @@ informacion1.addEventListener("click",()=>{
     
 });
 
-let informacion2 = document.querySelector(".boton1-sarazua");
+let informacion19_2 = document.querySelector(".boton1-sarazua");
 
-informacion1.addEventListener("click",()=>{
-    let bloque2 = document.querySelector(".info-p-sarazua");
+informacion19_2.addEventListener("click",()=>{
+    let bloque_2 = document.querySelector(".info-p-sarazua");
 
-    bloque2.classList.add("activar")
-    bloque2.innerHTML= `
+    bloque_2.classList.add("activar")
+    bloque_2.innerHTML= `
             <div class="info-p-sarazua">              
                 <h1><span>Richard Feynman da la conferencia "There's Plenty of Room at the Bottom"</span></h1>
                 <br>
@@ -78,13 +78,13 @@ informacion1.addEventListener("click",()=>{
     
 });
 
-let informacion3 = document.querySelector(".boton2-sarazua");
+let informacion_19_3 = document.querySelector(".boton2-sarazua");
 
-informacion3.addEventListener("click",()=>{
-    let bloque3 = document.querySelector(".info-sarazua");
+informacion_19_3.addEventListener("click",()=>{
+    let bloque_3 = document.querySelector(".info-sarazua");
 
-    bloque3.classList.add("activar")
-    bloque3.innerHTML= `
+    bloque_3.classList.add("activar")
+    bloque_3.innerHTML= `
             <div class="info-sarazua">
                 <img src="https://i.pinimg.com/originals/bf/2b/0b/bf2b0b4c0c945cde732c3f23ae188e78.png" alt="">
             </div>
@@ -92,13 +92,13 @@ informacion3.addEventListener("click",()=>{
     
 });
 
-let informacion4 = document.querySelector(".boton2-sarazua");
+let informacion_19_4 = document.querySelector(".boton2-sarazua");
 
-informacion4.addEventListener("click",()=>{
-    let bloque4 = document.querySelector(".info-p-sarazua");
+informacion_19_4.addEventListener("click",()=>{
+    let bloque_4 = document.querySelector(".info-p-sarazua");
 
-    bloque4.classList.add("activar")
-    bloque4.innerHTML= `
+    bloque_4.classList.add("activar")
+    bloque_4.innerHTML= `
             <div class="info-p-sarazua">              
                 <h1><span>Inventa el microscopio de efecto túnel (STM)</span></h1>
                 <br>
@@ -115,13 +115,13 @@ informacion4.addEventListener("click",()=>{
     
 });
 
-let informacion5 = document.querySelector(".boton3-sarazua");
+let informacion_19_5 = document.querySelector(".boton3-sarazua");
 
-informacion5.addEventListener("click",()=>{
-    let bloque5 = document.querySelector(".info-sarazua");
+informacion_19_5.addEventListener("click",()=>{
+    let bloque_5 = document.querySelector(".info-sarazua");
 
-    bloque5.classList.add("activar")
-    bloque5.innerHTML= `
+    bloque_5.classList.add("activar")
+    bloque_5.innerHTML= `
             <div class="info-sarazua">
                 <img src="https://images.cdn3.buscalibre.com/fit-in/360x360/77/20/77206eefbb16d1de675dd0b682e5bf16.jpg" alt="">
             </div>
@@ -129,13 +129,13 @@ informacion5.addEventListener("click",()=>{
     
 });
 
-let informacion6 = document.querySelector(".boton3-sarazua");
+let informacion_19_6 = document.querySelector(".boton3-sarazua");
 
-informacion6.addEventListener("click",()=>{
-    let bloque6 = document.querySelector(".info-p-sarazua");
+informacion_19_6.addEventListener("click",()=>{
+    let bloque_6 = document.querySelector(".info-p-sarazua");
 
-    bloque6.classList.add("activar")
-    bloque6.innerHTML= `
+    bloque_6.classList.add("activar")
+    bloque_6.innerHTML= `
             <div class="info-p-sarazua">              
                 <h1><span>Descubrimiento de los fullerenos</span></h1>
                 <br>
@@ -151,13 +151,13 @@ informacion6.addEventListener("click",()=>{
     
 });
 
-let informacion7 = document.querySelector(".boton4-sarazua");
+let informacion_19_7 = document.querySelector(".boton4-sarazua");
 
-informacion7.addEventListener("click",()=>{
-    let bloque7 = document.querySelector(".info-sarazua");
+informacion_19_7.addEventListener("click",()=>{
+    let bloque_7 = document.querySelector(".info-sarazua");
 
-    bloque7.classList.add("activar")
-    bloque7.innerHTML= `
+    bloque_7.classList.add("activar")
+    bloque_7.innerHTML= `
             <div class="info2-sarazua">
                 <img src="https://www.ikerbasque.net/sites/default/files/carbon_nanotube.jpg" alt="">
             </div>
@@ -165,13 +165,13 @@ informacion7.addEventListener("click",()=>{
     
 });
 
-let informacion8 = document.querySelector(".boton4-sarazua");
+let informacion_19_8 = document.querySelector(".boton4-sarazua");
 
-informacion8.addEventListener("click",()=>{
-    let bloque8= document.querySelector(".info-p-sarazua");
+informacion_19_8.addEventListener("click",()=>{
+    let bloque_8= document.querySelector(".info-p-sarazua");
 
-    bloque8.classList.add("activar")
-    bloque8.innerHTML= `
+    bloque_8.classList.add("activar")
+    bloque_8.innerHTML= `
             <div class="info-p2-sarazua">              
                 <h1><span>Descubrimiento de los nanotubos de carbono.</span></h1>
                 <br>
@@ -187,13 +187,13 @@ informacion8.addEventListener("click",()=>{
     
 });
 
-let informacion9 = document.querySelector(".boton5-sarazua");
+let informacion_19_9 = document.querySelector(".boton5-sarazua");
 
-informacion9.addEventListener("click",()=>{
-    let bloque9 = document.querySelector(".info-sarazua");
+informacion_19_9.addEventListener("click",()=>{
+    let bloque_9 = document.querySelector(".info-sarazua");
 
-    bloque9.classList.add("activar")
-    bloque9.innerHTML= `
+    bloque_9.classList.add("activar")
+    bloque_9.innerHTML= `
             <div class="info2-sarazua">
                 <img src="https://d7lju56vlbdri.cloudfront.net/var/ezwebin_site/storage/images/_aliases/img_1col/en-exclusiva/embargos/un-nuevo-material-imita-las-propiedades-exoticas-del-grafeno/2073149-3-esl-MX/Un-nuevo-material-imita-las-propiedades-exoticas-del-grafeno.jpg" alt="">
             </div>
