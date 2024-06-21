@@ -1,5 +1,4 @@
 let DOM_evolucion19 = document.querySelector("#evolucion19");
-alert("sis estoyg");
 DOM_evolucion19.innerHTML = `
 
     <section class="seccion-sarazua">
