@@ -1,0 +1,172 @@
+
+.titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ffffff;
+    background-color: #61adc7;
+    padding: 20px;
+ 
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.titulo:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.berenjena {
+    width: 90%;
+    background-color: #93b2c0;
+    padding: 20px;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    transition: all 0.3s ease;
+}
+
+.berenjena:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.pepino {
+    padding: 20px;
+    position: relative;
+    background-color: #ffffff;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    transition: all 0.3s ease;
+}
+
+.pepino:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.brocoli {
+    padding: 20px 24px;
+    background-color: #276b75;
+    border-radius: 12px;
+    color: #ffffff;
+    font-size: 1.25rem;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.brocoli:hover {
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pepino.zanahoria, .pepino.calabaza {
+    position: relative;
+    padding: 0;
+}
+
+.pepino.zanahoria .brocoli, .pepino.calabaza .brocoli {
+    margin: 0;
+}
+
+.pepino.zanahoria:before, .pepino.calabaza:before {
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    border: 10px solid transparent;
+}
+
+.pepino.zanahoria:before {
+    border-right-color: #00bfff;
+    left: -20px;
+}
+
+.pepino.calabaza:before {
+    border-left-color: #00bfff;
+    right: -20px;
+}
+
+.granada {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.granada:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 3066px) {
+    .titulo {
+        font-size: 2rem;
+        padding: 15px;
+        width: 90%;
+    }
+
+    .berenjena, .pepino {
+        padding: 15px;
+        width: 95%;
+    }
+
+    .brocoli {
+        font-size: 1rem;
+        padding: 15px 18px;
+    }
+
+    .granada {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .titulo {
+        font-size: 2rem;
+        padding: 15px;
+        width: 90%;
+    }
+
+    .berenjena, .pepino {
+        padding: 15px;
+        width: 95%;
+    }
+
+    .brocoli {
+        font-size: 1rem;
+        padding: 15px 18px;
+    }
+
+    .granada {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 375px) {
+    .titulo {
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+
+    .berenjena, .pepino {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .brocoli {
+        font-size: 0.875rem;
+        padding: 10px 12px;
+    }
+
+    .granada {
+        max-width: 70%;
+    }
+}
